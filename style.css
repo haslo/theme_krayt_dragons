@@ -12,6 +12,14 @@
  Text Domain:  rookie-child
 */
 
-.content .posted-on {
-  background-color: transparent;
+.entry-tag-links a, .entry-meta, .posted-on {
+  background-color: #000000 !important;
+  border: 1px solid #7f7f7f !important;
+  color: #eeee22 !important;
+  /* padding: 4px 3px !important; */
+  border-radius: 4px !important;
+}
+
+.entry-tag-links {
+  margin-top: 1px !important;
 }
